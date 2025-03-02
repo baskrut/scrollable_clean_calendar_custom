@@ -189,7 +189,6 @@ class DaysWidget extends StatelessWidget {
       txtStyle = (textStyle ?? Theme.of(context).textTheme.bodyLarge)!.copyWith(
         color: dayDisableColor ??
             Theme.of(context).colorScheme.onSurface.withOpacity(.5),
-        decoration: TextDecoration.lineThrough,
       );
     }
 
